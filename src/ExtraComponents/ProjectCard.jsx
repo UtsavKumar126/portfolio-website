@@ -21,8 +21,8 @@ function ProjectCard({ data }) {
         ))}
       </div>
       <div className="flex justify-between items-center ">
-        <a href="" className="hover:text-[#5E3BEE]  underline hover:scale-110">Source <ArrowOutwardIcon/></a>
-        <a href="" className="hover:text-[#5E3BEE] underline hover:scale-110">Deploy <ArrowOutwardIcon/></a> 
+        <a href={data.source} className="hover:text-[#5E3BEE]  underline hover:scale-110">Source <ArrowOutwardIcon/></a>
+        <a href={data.deploy} className="hover:text-[#5E3BEE] underline hover:scale-110">Deploy <ArrowOutwardIcon/></a> 
       </div>
     </div>
   );
