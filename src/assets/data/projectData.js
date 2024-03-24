@@ -12,8 +12,8 @@ export const projectData=[
         title:"Portfolio Website",
         desc:"Made using React shows profile , projects and desc about my work and Learnings",
         techStack:["React","Js","Tailwind"],
-        source:"",
-        deploy:""
+        source:"https://github.com/UtsavKumar126/portfolio-website",
+        deploy:"https://portfolio-website-plum-tau.vercel.app/"
     },
     {
         image:"src/assets/images/youtube.png",
