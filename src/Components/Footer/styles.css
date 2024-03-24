@@ -1,0 +1,10 @@
+.icons-div{
+    border: 1px solid #5E3BEE;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icons-div:hover{
+    background-color: #5E3BEE;
+    color: white;
+}
