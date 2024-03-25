@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 import nameLogo from "../../assets/images/namelogo.png";
+import MenuIcon from "@mui/icons-material/Menu";
 
-function Navbar() {
+function Navbar({block,setBlock}) {
   function scrollToSection(sectionId) {
     var section = document.getElementById(sectionId);
     if (section) {
@@ -28,6 +29,9 @@ function Navbar() {
         >
           Contact
         </button>
+      </div>
+      <div className="md:hidden border-2 p-2 rounded-xl" onClick={()=>setBlock(!block)}>
+        <MenuIcon />
       </div>
     </nav>
   );

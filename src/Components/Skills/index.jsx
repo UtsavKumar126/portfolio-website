@@ -9,7 +9,7 @@ function Skills() {
       <div>
         <h1 className="text-2xl md:text-5xl text-[#5E3BEE] text-center font-bold underline underline-offset-8">Skills</h1>
       </div>
-      <div className="mt-20 grid grid-cols-2 md:grid-cols-4 place-items-stretch gap-10 bg-[#F5FCFF] py-16 px-10">
+      <div className="mt-20 grid grid-cols-1 md:grid-cols-4 place-items-stretch gap-10 bg-[#F5FCFF] py-16 px-10">
         {
           SkillData.map((skill,index)=>
           <SkillCard skill={skill}/>

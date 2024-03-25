@@ -14,7 +14,7 @@ function SkillCard({ skill }) {
       }}
       className="flex flex-col justify-center items-center border-2  px-5 py-10 rounded-full hover:bg-[#e5fbfb] hover:border-[#5E3BEE] cursor-pointer"
     >
-      <img src={skill.image} className="w-[120px]" alt="" />
+      <img src={skill.image} className="w-[120px] h-[120px]" alt="" />
       <h3 className="font-bold text-center mt-4">{skill.skill}</h3>
     </motion.div>
   );

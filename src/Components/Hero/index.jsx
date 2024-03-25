@@ -31,15 +31,13 @@ function Hero() {
           designs. Specializing in HTML, CSS, JavaScript, React and Tailwind CSS
           for responsive and visually stunning websites.
         </p>
-        <div className="flex justify-start items-center gap-4 mt-8">
+        <div className="flex justify-center md:justify-start items-center gap-4 mt-8">
           <button className="px-4 py-2 border-2 border-white bg-[#5E3BEE] text-white rounded"
           onClick={() => scrollToSection("contact")}
           >
             Get In Touch
           </button>
-          <button className="px-4 py-2 border-2 border-white bg-[#5E3BEE] text-white rounded">
-           <a href="src/assets/docs/Updated_resume (1).pdf" download>Download CV</a>
-          </button>
+          <a href="src/assets/docs/Updated_resume (1).pdf" className="px-4 py-2 border-2 border-white bg-[#5E3BEE] text-white rounded" download>Download CV</a>
         </div>
       </div>
       <motion.div
