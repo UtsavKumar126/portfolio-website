@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 
 function AboutMe() {
   return (
-    <section id="About" className="mt-48 flex justify-around items-center">
-      <div className="max-w-[45%] flex flex-col gap-4 bg-[#F5FCFF] py-5 px-20 rounded-2xl">
-        <h1 className="text-5xl text-[#5E3BEE] font-bold underline underline-offset-8">
+    <section id="About" className="mt-48 flex-col md:flex-row flex justify-around items-center gap-10">
+      <div className="md:max-w-[45%] max-w-[100%] flex flex-col gap-4 bg-[#F5FCFF] py-5 md:px-20 rounded-2xl">
+        <h1 className="text-2xl md:text-5xl text-[#5E3BEE] font-bold underline underline-offset-8">
           About Me
         </h1>
         <p className="leading-7 tracking-wide">
@@ -33,7 +33,7 @@ function AboutMe() {
         </p>
       </div>
       <motion.div
-        className="border-2 rounded-full"
+        className="border-2 rounded-full "
         initial={{ y: -10 }}
         animate={{ y: 10 }}
         transition={{
@@ -43,7 +43,7 @@ function AboutMe() {
           repeat: Infinity,
         }}
       >
-        <img src={image} alt="" />
+        <img src={image} alt="" className="w-[200x] h-[200px] md:w-[500px] md:h-[500px]" />
       </motion.div>
     </section>
   );

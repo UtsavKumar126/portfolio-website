@@ -12,10 +12,10 @@ function Hero() {
     }
   }
   return (
-    <section id="home" className="bg-[#F5FCFF] mt-10 flex justify-around items-center py-20">
-      <div className="max-w-2xl">
+    <section id="home" className=" flex-col gap-10 md:flex-row bg-[#F5FCFF] mt-10 flex justify-around items-center py-20">
+      <div className="md:max-w-2xl w-[100vw]">
         <h3 className="font-bold text-xl">Hey, I am Utsav</h3>
-        <h1 className="font-bold text-5xl text-black mt-4">
+        <h1 className="font-bold text-2xl md:text-5xl text-black mt-4">
           <span>I am a </span>
           <ReactTyped
             strings={["Fresher", "Frontend Developer"]}
@@ -23,7 +23,7 @@ function Hero() {
             backSpeed={50}
             loop
           >
-            <input className="bg-[#F5FCFF] text-[#5E3BEE]" type="text" />
+            <input className="bg-[#F5FCFF] text-[#5E3BEE] max-w-[100vw]" type="text" />
           </ReactTyped>
         </h1>
         <p>
@@ -51,9 +51,9 @@ function Hero() {
           duration: 2,
           repeat: Infinity,
         }}
-        className="w-[350px] h-[350px] border-2 flex items-center justify-center rounded-full "
+        className="w-[200px] h-[200px] md:w-[350px] md:h-[350px] border-2 flex items-center justify-center rounded-full "
       >
-        <img className="max-w-[350px] max-h-[550px] " src={avatar} alt="" />
+        <img className="max-w-[200px] max-h-[400px] md:max-w-[350px] md:max-h-[550px] " src={avatar} alt="" />
       </motion.div>
     </section>
   );

@@ -29,12 +29,12 @@ function ContactMe() {
       );
   };
   return (
-    <section id='contact' className='mt-48'>
+    <section id='contact' className='mt-48 sm:w-[100%]'>
       <div>
-        <h1 className="text-5xl text-[#5E3BEE] text-center font-bold underline underline-offset-8">Contact Me</h1>
+        <h1 className="text-2xl md:text-5xl text-[#5E3BEE] text-center font-bold underline underline-offset-8">Contact Me</h1>
       </div>
-      <div className='mt-20 flex justify-around items-center'>
-        <div className='w-[600px] bg-[#F5FCFF] px-16 py-8 rounded-xl'>
+      <div className='mt-20 flex md:justify-around md:items-center md:flex-row flex-col'>
+        <div className='max-w-[600px] bg-[#F5FCFF] px-16 py-8 rounded-xl'>
           <h3 className='text-2xl font-bold'>Write me a message</h3>
           <form action="" className='flex flex-col justify-start items-stretch gap-4 mt-8' ref={form} onSubmit={sendEmail}>
             <label htmlFor="">Your Name</label>
@@ -46,7 +46,7 @@ function ContactMe() {
             <button className='border-2 px-4 py-4 rounded-xl border-[#5E3BEE] bg-[#5E3BEE] text-white' type="submit" value="Send">Send</button>
           </form>
         </div>
-        <img className='max-w-[500px]' src={mailImage} alt="" />
+        <img className='md:max-w-[500px] md:block hidden' src={mailImage} alt="" />
       </div>
     </section>
   )
