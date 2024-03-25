@@ -1,6 +1,5 @@
 export const projectData=[
     {
-        image:"/src/assets/images/crypto-tracker.png",
         title:"Real-Time Crypto Tracker",
         desc:"Real-Time Crypto Tracker Build using CoingekiGo Apis , Provides Real Time Charts from Apis and used to keep Track of crypto currency data",
         techStack:["React","Js","CSS"],
@@ -8,7 +7,6 @@ export const projectData=[
         deploy:"https://crypto-tracker-qbfx6je78-utsav-kumars-projects.vercel.app/"
     },
     {
-        image:"/src/assets/images/Portfolio.png",
         title:"Portfolio Website",
         desc:"Made using React shows profile , projects and desc about my work and Learnings",
         techStack:["React","Js","Tailwind"],
@@ -16,7 +14,6 @@ export const projectData=[
         deploy:"https://portfolio-website-plum-tau.vercel.app/"
     },
     {
-        image:"/src/assets/images/youtube.png",
         title:"YouTube-Clone",
         desc:"Video Streaming Platform made using Youtube APIS , has a section containing videos and their links , Can Search videos using search bar ",
         techStack:["Js","HTML","CSS"],
@@ -24,7 +21,6 @@ export const projectData=[
         deploy:"https://utsavkumar126.github.io/youTubeClone/"
     },
     {
-        image:"/src/assets/images/Blinkit.png",
         title:"Blink-It Clone",
         desc:"Static Blink-It Clone made using HTML and CSS ",
         techStack:["HTML","CSS"],
