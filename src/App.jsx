@@ -19,7 +19,7 @@ function App() {
     }; 
   })
   return (
-    <>
+    <div className="p-2">
       <Navbar block={block} setBlock={setBlock} />
       {block && (
         <div className="flex flex-col gap-5 justify-start px-5 mt-4 transition-all duration-500">
@@ -37,7 +37,7 @@ function App() {
       <ContactMe />
       <Footer />
       <ToastContainer />
-    </>
+    </div>
   );
 }
 

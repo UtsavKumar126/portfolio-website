@@ -4,8 +4,8 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 function ProjectCard({ data,image }) {
   return (
-    <div className="group max-w-sm rounded overflow-hidden shadow-lg border-2 border-[#5E3BEE] p-5 cursor-pointer hover:scale-110 transition-all duration-500">
-      <img className="w-full border-2 border-[#5E3BEE]" src={image} alt="Sunset in the mountains" />
+    <div className="group max-w-sm rounded-xl overflow-hidden shadow-lg border-2 border-[#5E3BEE] cursor-pointer hover:scale-110 transition-all duration-500">
+      <img className="w-full border-b-2 border-[#5E3BEE]" src={image} alt="Sunset in the mountains" />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{data.title}</div>
         <p className="text-gray-700 text-base">{data.desc}</p>
